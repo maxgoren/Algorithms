@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../listhelpers.h"
+#include "list-helpers.h"
 
 void insertSorted(struct list **l, int n)
 {
