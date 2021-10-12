@@ -54,3 +54,18 @@ Rank    Algorithm    Time To Execute
 7:  Selection sort - 219ms
 8:     Bubble sort - 233ms
 9: Selection sort+ - 280ms
+---------------------------------------------------------------
+Test Five: Average of 5 runs, All algorithms recieve unique, somewhat limited varying data set.
+Sample size: 90000 items of type: i
+Rank    Algorithm    Time To Execute 
+---------------------------------------
+1:      Shell sort - 24.6ms
+2:        Heapsort - 122ms
+3:      Merge sort - 241ms
+4:       Quicksort - 2.78e+03ms
+5:  Insertion sort - 4.15e+03ms
+6:    Bubble sort2 - 2.72e+04ms
+7:  Selection sort - 3.12e+04ms
+8:     Bubble sort - 3.37e+04ms
+9: Selection sort+ - 3.86e+04ms
+
