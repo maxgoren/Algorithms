@@ -1,0 +1,56 @@
+---------------------------------------------------------------
+Test one: Average of 10 runs, Each run performed on new random data set.
+Sample size: 100 items of type: i
+Rank    Algorithm    Time To Execute 
+---------------------------------------
+1:  Insertion sort - 0.00829ms
+2:      Shell sort - 0.0144ms
+3:    Bubble sort2 - 0.0646ms
+4:  Selection sort - 0.0801ms
+5:     Bubble sort - 0.0806ms
+6: Selection sort+ - 0.0998ms
+7:        Heapsort - 0.196ms
+8:      Merge sort - 0.362ms
+9:       Quicksort - 2.57ms
+---------------------------------------------------------------
+Test two: Average of 5 runs, All algorithms recieve same data set.
+Sample size: 3000 items of type: i
+Rank    Algorithm    Time To Execute 
+---------------------------------------
+1:      Shell sort - 0.561ms
+2:        Heapsort - 2.9ms
+3:  Insertion sort - 5.05ms
+4:      Merge sort - 6.81ms
+5:       Quicksort - 16.9ms
+6:    Bubble sort2 - 37.5ms
+7:  Selection sort - 42.3ms
+8:     Bubble sort - 44ms
+9: Selection sort+ - 44.8ms
+---------------------------------------------------------------
+Test three: Average of 5 runs, All algorithms recieve unique, limited varying data set.
+Sample size: 3000 items of type: i
+Rank    Algorithm    Time To Execute 
+---------------------------------------
+1:      Shell sort - 0.131ms
+2:  Insertion sort - 0.463ms
+3:       Quicksort - 0.698ms
+4:        Heapsort - 1.58ms
+5:      Merge sort - 1.97ms
+6:    Bubble sort2 - 2.99ms
+7:  Selection sort - 3.78ms
+8:     Bubble sort - 4.31ms
+9: Selection sort+ - 4.97ms
+---------------------------------------------------------------
+Test Four: Average of 10 runs, Each run performed on new random data set.
+Sample size: 5000 items of type: i
+Rank    Algorithm    Time To Execute 
+---------------------------------------
+1:      Shell sort - 1.68ms
+2:        Heapsort - 10.2ms
+3:  Insertion sort - 13.9ms
+4:      Merge sort - 30.3ms
+5:       Quicksort - 100ms
+6:    Bubble sort2 - 187ms
+7:  Selection sort - 219ms
+8:     Bubble sort - 233ms
+9: Selection sort+ - 280ms
