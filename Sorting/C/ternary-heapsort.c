@@ -1,3 +1,10 @@
+/*
+	coded this on my lunch break, i wanted to see if the recursive 
+	heapify algorithm could be extended out to ternary heaps.
+	judgeing by the looks of it, it could be extended out to
+	d-ary heaps.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
